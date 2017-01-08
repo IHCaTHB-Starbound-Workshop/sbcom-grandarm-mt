@@ -1,14 +1,11 @@
 {
   "author" : "isaac as THE HONEY BADGER",
-  "description" : "^#5aa9d6;Adds the Manufacturer's Touch options to Grand Armory weapons.^reset;
-
-This mod is an optional patch, but requires Manufacturer's Touch and Grand Armory to work.
-For now precludes bows and spellbooks.
-
-For more, click the MEGATHREAD link from the steam page.",
+  "description" : "^#5aa9d6;Adds the Manufacturer's Touch options to Grand Armory weapons.^reset;\n\nThis mod is an optional patch, but requires Manufacturer's Touch and Grand Armory to work.\nFor now precludes bows and spellbooks.\n\nFor more, click the MEGATHREAD link from the steam page.",
   "friendlyName" : "Grand Armory-Manufacturers Touch compatibility patch",
-  "includes" : ["kit_manufacturer","GRANDARM.IHC","GRANDARM-QS.IHC"],
+  "includes" : ["kit_manufacturer", "GRANDARM.IHC", "GRANDARM-QS.IHC"],
+  "link" : "steam://url/CommunityFilePage/837593363",
   "name" : "GRANDARM-MT.IHC",
-  "requires" : ["kit_manufacturer","GRANDARM.IHC"],
+  "requires" : ["kit_manufacturer", "GRANDARM.IHC"],
+  "steamContentId" : "837593363",
   "version" : "0.1"
 }
