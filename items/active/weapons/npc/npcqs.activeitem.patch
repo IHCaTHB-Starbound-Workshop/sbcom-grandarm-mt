@@ -1,0 +1,1517 @@
+[[
+  {
+    "op": "remove",
+    "path": "/elementalType"
+  },
+  {
+    "op": "remove",
+    "path": "/fireSounds"
+  }
+],[
+  {
+    "op": "add",
+    "path": "/builderConfig/0/manufacturer",
+    "value": [
+      "custom",
+      "manaticon",
+      "necrolix",
+      "shadeco",
+      "teklacki",
+      "xiali"
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/builderConfig/0/treatPhysicalAsElementalType",
+    "value": true
+  },
+  {
+    "op": "add",
+    "path": "/builderConfig/0/noElementalTypeUnlessForced",
+    "value": true
+  },
+  {
+    "op": "add",
+    "path": "/builderConfig/0/elementalType",
+    "value": [
+      "fire",
+      "ice",
+      "electric",
+      "poison"
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/builderConfig/0/elementalConfig",
+    "value": {
+      "fire": {
+        "primaryAbility": {
+          "damageConfig": {
+            "statusEffects": [
+            ]
+          }
+        },
+        "fireSounds": [
+          [
+            "/sfx/melee/swing_spear_fire1.ogg",
+            "/sfx/melee/swing_spear_fire2.ogg",
+            "/sfx/melee/swing_spear_fire3.ogg"
+          ]
+        ]
+      },
+      "ice": {
+        "primaryAbility": {
+          "damageConfig": {
+            "statusEffects": [
+            ]
+          }
+        },
+        "fireSounds": [
+          [
+            "/sfx/melee/swing_spear_ice1.ogg",
+            "/sfx/melee/swing_spear_ice2.ogg",
+            "/sfx/melee/swing_spear_ice3.ogg"
+          ]
+        ]
+      },
+      "poison": {
+        "primaryAbility": {
+          "damageConfig": {
+            "statusEffects": [
+            ]
+          }
+        },
+        "fireSounds": [
+          [
+            "/sfx/melee/swing_spear_poison1.ogg",
+            "/sfx/melee/swing_spear_poison2.ogg",
+            "/sfx/melee/swing_spear_poison3.ogg"
+          ]
+        ]
+      },
+      "electric": {
+        "primaryAbility": {
+          "damageConfig": {
+            "statusEffects": [
+            ]
+          }
+        },
+        "fireSounds": [
+          [
+            "/sfx/melee/swing_spear_electric1.ogg",
+            "/sfx/melee/swing_spear_electric2.ogg",
+            "/sfx/melee/swing_spear_electric3.ogg"
+          ]
+        ]
+      },
+      "physical": {
+        "primaryAbility": {
+          "damageConfig": {
+            "statusEffects": []
+          }
+        },
+        "fireSounds": [
+          [
+            "/sfx/melee/swing_spear.ogg"
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "op": "replace",
+    "path": "/builderConfig/0/altAbilities/1",
+    "value": "elementalspin"
+  },
+  {
+    "op": "move",
+    "path": "/builderConfig/-",
+    "from": "/builderConfig/0"
+  }
+],[
+  {
+    "op": "test",
+    "path": "/builderConfig/0/manufacturer",
+    "inverse": true
+  },
+  {
+    "op": "add",
+    "path": "/builderConfig/0/manufacturer",
+    "value": [
+      "custom",
+      "manaticon",
+      "necrolix",
+      "shadeco",
+      "teklacki",
+      "xiali"
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/builderConfig/0/treatPhysicalAsElementalType",
+    "value": true
+  },
+  {
+    "op": "add",
+    "path": "/builderConfig/0/noElementalTypeUnlessForced",
+    "value": true
+  },
+  {
+    "op": "add",
+    "path": "/builderConfig/0/elementalType",
+    "value": [
+      "fire",
+      "ice",
+      "electric",
+      "poison"
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/builderConfig/0/elementalConfig",
+    "value": {
+      "fire": {
+        "primaryAbility": {
+          "damageConfig": {
+            "statusEffects": [
+            ]
+          }
+        },
+        "fireSounds": [
+          [
+            "/sfx/melee/swing_spear_fire1.ogg",
+            "/sfx/melee/swing_spear_fire2.ogg",
+            "/sfx/melee/swing_spear_fire3.ogg"
+          ]
+        ]
+      },
+      "ice": {
+        "primaryAbility": {
+          "damageConfig": {
+            "statusEffects": [
+            ]
+          }
+        },
+        "fireSounds": [
+          [
+            "/sfx/melee/swing_spear_ice1.ogg",
+            "/sfx/melee/swing_spear_ice2.ogg",
+            "/sfx/melee/swing_spear_ice3.ogg"
+          ]
+        ]
+      },
+      "poison": {
+        "primaryAbility": {
+          "damageConfig": {
+            "statusEffects": [
+            ]
+          }
+        },
+        "fireSounds": [
+          [
+            "/sfx/melee/swing_spear_poison1.ogg",
+            "/sfx/melee/swing_spear_poison2.ogg",
+            "/sfx/melee/swing_spear_poison3.ogg"
+          ]
+        ]
+      },
+      "electric": {
+        "primaryAbility": {
+          "damageConfig": {
+            "statusEffects": [
+            ]
+          }
+        },
+        "fireSounds": [
+          [
+            "/sfx/melee/swing_spear_electric1.ogg",
+            "/sfx/melee/swing_spear_electric2.ogg",
+            "/sfx/melee/swing_spear_electric3.ogg"
+          ]
+        ]
+      },
+      "physical": {
+        "primaryAbility": {
+          "damageConfig": {
+            "statusEffects": []
+          }
+        },
+        "fireSounds": [
+          [
+            "/sfx/melee/swing_spear.ogg"
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "op": "replace",
+    "path": "/builderConfig/0/altAbilities/1",
+    "value": "elementalspin"
+  },
+  {
+    "op": "move",
+    "path": "/builderConfig/-",
+    "from": "/builderConfig/0"
+  }
+],[
+  {
+    "op": "test",
+    "path": "/builderConfig/0/manufacturer",
+    "inverse": true
+  },
+  {
+    "op": "add",
+    "path": "/builderConfig/0/manufacturer",
+    "value": [
+      "custom",
+      "manaticon",
+      "necrolix",
+      "shadeco",
+      "teklacki",
+      "xiali"
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/builderConfig/0/treatPhysicalAsElementalType",
+    "value": true
+  },
+  {
+    "op": "add",
+    "path": "/builderConfig/0/noElementalTypeUnlessForced",
+    "value": true
+  },
+  {
+    "op": "add",
+    "path": "/builderConfig/0/elementalType",
+    "value": [
+      "fire",
+      "ice",
+      "electric",
+      "poison"
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/builderConfig/0/elementalConfig",
+    "value": {
+      "fire": {
+        "primaryAbility": {
+          "damageConfig": {
+            "statusEffects": [
+            ]
+          }
+        },
+        "fireSounds": [
+          [
+            "/sfx/melee/swing_spear_fire1.ogg",
+            "/sfx/melee/swing_spear_fire2.ogg",
+            "/sfx/melee/swing_spear_fire3.ogg"
+          ]
+        ]
+      },
+      "ice": {
+        "primaryAbility": {
+          "damageConfig": {
+            "statusEffects": [
+            ]
+          }
+        },
+        "fireSounds": [
+          [
+            "/sfx/melee/swing_spear_ice1.ogg",
+            "/sfx/melee/swing_spear_ice2.ogg",
+            "/sfx/melee/swing_spear_ice3.ogg"
+          ]
+        ]
+      },
+      "poison": {
+        "primaryAbility": {
+          "damageConfig": {
+            "statusEffects": [
+            ]
+          }
+        },
+        "fireSounds": [
+          [
+            "/sfx/melee/swing_spear_poison1.ogg",
+            "/sfx/melee/swing_spear_poison2.ogg",
+            "/sfx/melee/swing_spear_poison3.ogg"
+          ]
+        ]
+      },
+      "electric": {
+        "primaryAbility": {
+          "damageConfig": {
+            "statusEffects": [
+            ]
+          }
+        },
+        "fireSounds": [
+          [
+            "/sfx/melee/swing_spear_electric1.ogg",
+            "/sfx/melee/swing_spear_electric2.ogg",
+            "/sfx/melee/swing_spear_electric3.ogg"
+          ]
+        ]
+      },
+      "physical": {
+        "primaryAbility": {
+          "damageConfig": {
+            "statusEffects": []
+          }
+        },
+        "fireSounds": [
+          [
+            "/sfx/melee/swing_spear.ogg"
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "op": "replace",
+    "path": "/builderConfig/0/altAbilities/1",
+    "value": "elementalspin"
+  },
+  {
+    "op": "move",
+    "path": "/builderConfig/-",
+    "from": "/builderConfig/0"
+  }
+],[
+  {
+    "op": "test",
+    "path": "/builderConfig/0/manufacturer",
+    "inverse": true
+  },
+  {
+    "op": "add",
+    "path": "/builderConfig/0/manufacturer",
+    "value": [
+      "custom",
+      "manaticon",
+      "necrolix",
+      "shadeco",
+      "teklacki",
+      "xiali"
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/builderConfig/0/treatPhysicalAsElementalType",
+    "value": true
+  },
+  {
+    "op": "add",
+    "path": "/builderConfig/0/noElementalTypeUnlessForced",
+    "value": true
+  },
+  {
+    "op": "add",
+    "path": "/builderConfig/0/elementalType",
+    "value": [
+      "fire",
+      "ice",
+      "electric",
+      "poison"
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/builderConfig/0/elementalConfig",
+    "value": {
+      "fire": {
+        "primaryAbility": {
+          "damageConfig": {
+            "statusEffects": [
+            ]
+          }
+        },
+        "fireSounds": [
+          [
+            "/sfx/melee/swing_spear_fire1.ogg",
+            "/sfx/melee/swing_spear_fire2.ogg",
+            "/sfx/melee/swing_spear_fire3.ogg"
+          ]
+        ]
+      },
+      "ice": {
+        "primaryAbility": {
+          "damageConfig": {
+            "statusEffects": [
+            ]
+          }
+        },
+        "fireSounds": [
+          [
+            "/sfx/melee/swing_spear_ice1.ogg",
+            "/sfx/melee/swing_spear_ice2.ogg",
+            "/sfx/melee/swing_spear_ice3.ogg"
+          ]
+        ]
+      },
+      "poison": {
+        "primaryAbility": {
+          "damageConfig": {
+            "statusEffects": [
+            ]
+          }
+        },
+        "fireSounds": [
+          [
+            "/sfx/melee/swing_spear_poison1.ogg",
+            "/sfx/melee/swing_spear_poison2.ogg",
+            "/sfx/melee/swing_spear_poison3.ogg"
+          ]
+        ]
+      },
+      "electric": {
+        "primaryAbility": {
+          "damageConfig": {
+            "statusEffects": [
+            ]
+          }
+        },
+        "fireSounds": [
+          [
+            "/sfx/melee/swing_spear_electric1.ogg",
+            "/sfx/melee/swing_spear_electric2.ogg",
+            "/sfx/melee/swing_spear_electric3.ogg"
+          ]
+        ]
+      },
+      "physical": {
+        "primaryAbility": {
+          "damageConfig": {
+            "statusEffects": []
+          }
+        },
+        "fireSounds": [
+          [
+            "/sfx/melee/swing_spear.ogg"
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "op": "replace",
+    "path": "/builderConfig/0/altAbilities/1",
+    "value": "elementalspin"
+  },
+  {
+    "op": "move",
+    "path": "/builderConfig/-",
+    "from": "/builderConfig/0"
+  }
+],[
+  {
+    "op": "test",
+    "path": "/builderConfig/0/manufacturer",
+    "inverse": true
+  },
+  {
+    "op": "add",
+    "path": "/builderConfig/0/manufacturer",
+    "value": [
+      "custom",
+      "manaticon",
+      "necrolix",
+      "shadeco",
+      "teklacki",
+      "xiali"
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/builderConfig/0/treatPhysicalAsElementalType",
+    "value": true
+  },
+  {
+    "op": "add",
+    "path": "/builderConfig/0/noElementalTypeUnlessForced",
+    "value": true
+  },
+  {
+    "op": "add",
+    "path": "/builderConfig/0/elementalType",
+    "value": [
+      "fire",
+      "ice",
+      "electric",
+      "poison"
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/builderConfig/0/elementalConfig",
+    "value": {
+      "fire": {
+        "primaryAbility": {
+          "damageConfig": {
+            "statusEffects": [
+            ]
+          }
+        },
+        "fireSounds": [
+          [
+            "/sfx/melee/swing_spear_fire1.ogg",
+            "/sfx/melee/swing_spear_fire2.ogg",
+            "/sfx/melee/swing_spear_fire3.ogg"
+          ]
+        ]
+      },
+      "ice": {
+        "primaryAbility": {
+          "damageConfig": {
+            "statusEffects": [
+            ]
+          }
+        },
+        "fireSounds": [
+          [
+            "/sfx/melee/swing_spear_ice1.ogg",
+            "/sfx/melee/swing_spear_ice2.ogg",
+            "/sfx/melee/swing_spear_ice3.ogg"
+          ]
+        ]
+      },
+      "poison": {
+        "primaryAbility": {
+          "damageConfig": {
+            "statusEffects": [
+            ]
+          }
+        },
+        "fireSounds": [
+          [
+            "/sfx/melee/swing_spear_poison1.ogg",
+            "/sfx/melee/swing_spear_poison2.ogg",
+            "/sfx/melee/swing_spear_poison3.ogg"
+          ]
+        ]
+      },
+      "electric": {
+        "primaryAbility": {
+          "damageConfig": {
+            "statusEffects": [
+            ]
+          }
+        },
+        "fireSounds": [
+          [
+            "/sfx/melee/swing_spear_electric1.ogg",
+            "/sfx/melee/swing_spear_electric2.ogg",
+            "/sfx/melee/swing_spear_electric3.ogg"
+          ]
+        ]
+      },
+      "physical": {
+        "primaryAbility": {
+          "damageConfig": {
+            "statusEffects": []
+          }
+        },
+        "fireSounds": [
+          [
+            "/sfx/melee/swing_spear.ogg"
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "op": "replace",
+    "path": "/builderConfig/0/altAbilities/1",
+    "value": "elementalspin"
+  },
+  {
+    "op": "move",
+    "path": "/builderConfig/-",
+    "from": "/builderConfig/0"
+  }
+],[
+  {
+    "op": "test",
+    "path": "/builderConfig/0/manufacturer",
+    "inverse": true
+  },
+  {
+    "op": "add",
+    "path": "/builderConfig/0/manufacturer",
+    "value": [
+      "custom",
+      "manaticon",
+      "necrolix",
+      "shadeco",
+      "teklacki",
+      "xiali"
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/builderConfig/0/treatPhysicalAsElementalType",
+    "value": true
+  },
+  {
+    "op": "add",
+    "path": "/builderConfig/0/noElementalTypeUnlessForced",
+    "value": true
+  },
+  {
+    "op": "add",
+    "path": "/builderConfig/0/elementalType",
+    "value": [
+      "fire",
+      "ice",
+      "electric",
+      "poison"
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/builderConfig/0/elementalConfig",
+    "value": {
+      "fire": {
+        "primaryAbility": {
+          "damageConfig": {
+            "statusEffects": [
+            ]
+          }
+        },
+        "fireSounds": [
+          [
+            "/sfx/melee/swing_spear_fire1.ogg",
+            "/sfx/melee/swing_spear_fire2.ogg",
+            "/sfx/melee/swing_spear_fire3.ogg"
+          ]
+        ]
+      },
+      "ice": {
+        "primaryAbility": {
+          "damageConfig": {
+            "statusEffects": [
+            ]
+          }
+        },
+        "fireSounds": [
+          [
+            "/sfx/melee/swing_spear_ice1.ogg",
+            "/sfx/melee/swing_spear_ice2.ogg",
+            "/sfx/melee/swing_spear_ice3.ogg"
+          ]
+        ]
+      },
+      "poison": {
+        "primaryAbility": {
+          "damageConfig": {
+            "statusEffects": [
+            ]
+          }
+        },
+        "fireSounds": [
+          [
+            "/sfx/melee/swing_spear_poison1.ogg",
+            "/sfx/melee/swing_spear_poison2.ogg",
+            "/sfx/melee/swing_spear_poison3.ogg"
+          ]
+        ]
+      },
+      "electric": {
+        "primaryAbility": {
+          "damageConfig": {
+            "statusEffects": [
+            ]
+          }
+        },
+        "fireSounds": [
+          [
+            "/sfx/melee/swing_spear_electric1.ogg",
+            "/sfx/melee/swing_spear_electric2.ogg",
+            "/sfx/melee/swing_spear_electric3.ogg"
+          ]
+        ]
+      },
+      "physical": {
+        "primaryAbility": {
+          "damageConfig": {
+            "statusEffects": []
+          }
+        },
+        "fireSounds": [
+          [
+            "/sfx/melee/swing_spear.ogg"
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "op": "replace",
+    "path": "/builderConfig/0/altAbilities/1",
+    "value": "elementalspin"
+  },
+  {
+    "op": "move",
+    "path": "/builderConfig/-",
+    "from": "/builderConfig/0"
+  }
+],[
+  {
+    "op": "test",
+    "path": "/builderConfig/0/manufacturer",
+    "inverse": true
+  },
+  {
+    "op": "add",
+    "path": "/builderConfig/0/manufacturer",
+    "value": [
+      "custom",
+      "manaticon",
+      "necrolix",
+      "shadeco",
+      "teklacki",
+      "xiali"
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/builderConfig/0/treatPhysicalAsElementalType",
+    "value": true
+  },
+  {
+    "op": "add",
+    "path": "/builderConfig/0/noElementalTypeUnlessForced",
+    "value": true
+  },
+  {
+    "op": "add",
+    "path": "/builderConfig/0/elementalType",
+    "value": [
+      "fire",
+      "ice",
+      "electric",
+      "poison"
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/builderConfig/0/elementalConfig",
+    "value": {
+      "fire": {
+        "primaryAbility": {
+          "damageConfig": {
+            "statusEffects": [
+            ]
+          }
+        },
+        "fireSounds": [
+          [
+            "/sfx/melee/swing_spear_fire1.ogg",
+            "/sfx/melee/swing_spear_fire2.ogg",
+            "/sfx/melee/swing_spear_fire3.ogg"
+          ]
+        ]
+      },
+      "ice": {
+        "primaryAbility": {
+          "damageConfig": {
+            "statusEffects": [
+            ]
+          }
+        },
+        "fireSounds": [
+          [
+            "/sfx/melee/swing_spear_ice1.ogg",
+            "/sfx/melee/swing_spear_ice2.ogg",
+            "/sfx/melee/swing_spear_ice3.ogg"
+          ]
+        ]
+      },
+      "poison": {
+        "primaryAbility": {
+          "damageConfig": {
+            "statusEffects": [
+            ]
+          }
+        },
+        "fireSounds": [
+          [
+            "/sfx/melee/swing_spear_poison1.ogg",
+            "/sfx/melee/swing_spear_poison2.ogg",
+            "/sfx/melee/swing_spear_poison3.ogg"
+          ]
+        ]
+      },
+      "electric": {
+        "primaryAbility": {
+          "damageConfig": {
+            "statusEffects": [
+            ]
+          }
+        },
+        "fireSounds": [
+          [
+            "/sfx/melee/swing_spear_electric1.ogg",
+            "/sfx/melee/swing_spear_electric2.ogg",
+            "/sfx/melee/swing_spear_electric3.ogg"
+          ]
+        ]
+      },
+      "physical": {
+        "primaryAbility": {
+          "damageConfig": {
+            "statusEffects": []
+          }
+        },
+        "fireSounds": [
+          [
+            "/sfx/melee/swing_spear.ogg"
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "op": "replace",
+    "path": "/builderConfig/0/altAbilities/1",
+    "value": "elementalspin"
+  },
+  {
+    "op": "move",
+    "path": "/builderConfig/-",
+    "from": "/builderConfig/0"
+  }
+],[
+  {
+    "op": "test",
+    "path": "/builderConfig/0/manufacturer",
+    "inverse": true
+  },
+  {
+    "op": "add",
+    "path": "/builderConfig/0/manufacturer",
+    "value": [
+      "custom",
+      "manaticon",
+      "necrolix",
+      "shadeco",
+      "teklacki",
+      "xiali"
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/builderConfig/0/treatPhysicalAsElementalType",
+    "value": true
+  },
+  {
+    "op": "add",
+    "path": "/builderConfig/0/noElementalTypeUnlessForced",
+    "value": true
+  },
+  {
+    "op": "add",
+    "path": "/builderConfig/0/elementalType",
+    "value": [
+      "fire",
+      "ice",
+      "electric",
+      "poison"
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/builderConfig/0/elementalConfig",
+    "value": {
+      "fire": {
+        "primaryAbility": {
+          "damageConfig": {
+            "statusEffects": [
+            ]
+          }
+        },
+        "fireSounds": [
+          [
+            "/sfx/melee/swing_spear_fire1.ogg",
+            "/sfx/melee/swing_spear_fire2.ogg",
+            "/sfx/melee/swing_spear_fire3.ogg"
+          ]
+        ]
+      },
+      "ice": {
+        "primaryAbility": {
+          "damageConfig": {
+            "statusEffects": [
+            ]
+          }
+        },
+        "fireSounds": [
+          [
+            "/sfx/melee/swing_spear_ice1.ogg",
+            "/sfx/melee/swing_spear_ice2.ogg",
+            "/sfx/melee/swing_spear_ice3.ogg"
+          ]
+        ]
+      },
+      "poison": {
+        "primaryAbility": {
+          "damageConfig": {
+            "statusEffects": [
+            ]
+          }
+        },
+        "fireSounds": [
+          [
+            "/sfx/melee/swing_spear_poison1.ogg",
+            "/sfx/melee/swing_spear_poison2.ogg",
+            "/sfx/melee/swing_spear_poison3.ogg"
+          ]
+        ]
+      },
+      "electric": {
+        "primaryAbility": {
+          "damageConfig": {
+            "statusEffects": [
+            ]
+          }
+        },
+        "fireSounds": [
+          [
+            "/sfx/melee/swing_spear_electric1.ogg",
+            "/sfx/melee/swing_spear_electric2.ogg",
+            "/sfx/melee/swing_spear_electric3.ogg"
+          ]
+        ]
+      },
+      "physical": {
+        "primaryAbility": {
+          "damageConfig": {
+            "statusEffects": []
+          }
+        },
+        "fireSounds": [
+          [
+            "/sfx/melee/swing_spear.ogg"
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "op": "replace",
+    "path": "/builderConfig/0/altAbilities/1",
+    "value": "elementalspin"
+  },
+  {
+    "op": "move",
+    "path": "/builderConfig/-",
+    "from": "/builderConfig/0"
+  }
+],[
+  {
+    "op": "test",
+    "path": "/builderConfig/0/manufacturer",
+    "inverse": true
+  },
+  {
+    "op": "add",
+    "path": "/builderConfig/0/manufacturer",
+    "value": [
+      "custom",
+      "manaticon",
+      "necrolix",
+      "shadeco",
+      "teklacki",
+      "xiali"
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/builderConfig/0/treatPhysicalAsElementalType",
+    "value": true
+  },
+  {
+    "op": "add",
+    "path": "/builderConfig/0/noElementalTypeUnlessForced",
+    "value": true
+  },
+  {
+    "op": "add",
+    "path": "/builderConfig/0/elementalType",
+    "value": [
+      "fire",
+      "ice",
+      "electric",
+      "poison"
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/builderConfig/0/elementalConfig",
+    "value": {
+      "fire": {
+        "primaryAbility": {
+          "damageConfig": {
+            "statusEffects": [
+            ]
+          }
+        },
+        "fireSounds": [
+          [
+            "/sfx/melee/swing_spear_fire1.ogg",
+            "/sfx/melee/swing_spear_fire2.ogg",
+            "/sfx/melee/swing_spear_fire3.ogg"
+          ]
+        ]
+      },
+      "ice": {
+        "primaryAbility": {
+          "damageConfig": {
+            "statusEffects": [
+            ]
+          }
+        },
+        "fireSounds": [
+          [
+            "/sfx/melee/swing_spear_ice1.ogg",
+            "/sfx/melee/swing_spear_ice2.ogg",
+            "/sfx/melee/swing_spear_ice3.ogg"
+          ]
+        ]
+      },
+      "poison": {
+        "primaryAbility": {
+          "damageConfig": {
+            "statusEffects": [
+            ]
+          }
+        },
+        "fireSounds": [
+          [
+            "/sfx/melee/swing_spear_poison1.ogg",
+            "/sfx/melee/swing_spear_poison2.ogg",
+            "/sfx/melee/swing_spear_poison3.ogg"
+          ]
+        ]
+      },
+      "electric": {
+        "primaryAbility": {
+          "damageConfig": {
+            "statusEffects": [
+            ]
+          }
+        },
+        "fireSounds": [
+          [
+            "/sfx/melee/swing_spear_electric1.ogg",
+            "/sfx/melee/swing_spear_electric2.ogg",
+            "/sfx/melee/swing_spear_electric3.ogg"
+          ]
+        ]
+      },
+      "physical": {
+        "primaryAbility": {
+          "damageConfig": {
+            "statusEffects": []
+          }
+        },
+        "fireSounds": [
+          [
+            "/sfx/melee/swing_spear.ogg"
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "op": "replace",
+    "path": "/builderConfig/0/altAbilities/1",
+    "value": "elementalspin"
+  },
+  {
+    "op": "move",
+    "path": "/builderConfig/-",
+    "from": "/builderConfig/0"
+  }
+],[
+  {
+    "op": "test",
+    "path": "/builderConfig/0/manufacturer",
+    "inverse": true
+  },
+  {
+    "op": "add",
+    "path": "/builderConfig/0/manufacturer",
+    "value": [
+      "custom",
+      "manaticon",
+      "necrolix",
+      "shadeco",
+      "teklacki",
+      "xiali"
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/builderConfig/0/treatPhysicalAsElementalType",
+    "value": true
+  },
+  {
+    "op": "add",
+    "path": "/builderConfig/0/noElementalTypeUnlessForced",
+    "value": true
+  },
+  {
+    "op": "add",
+    "path": "/builderConfig/0/elementalType",
+    "value": [
+      "fire",
+      "ice",
+      "electric",
+      "poison"
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/builderConfig/0/elementalConfig",
+    "value": {
+      "fire": {
+        "primaryAbility": {
+          "damageConfig": {
+            "statusEffects": [
+            ]
+          }
+        },
+        "fireSounds": [
+          [
+            "/sfx/melee/swing_spear_fire1.ogg",
+            "/sfx/melee/swing_spear_fire2.ogg",
+            "/sfx/melee/swing_spear_fire3.ogg"
+          ]
+        ]
+      },
+      "ice": {
+        "primaryAbility": {
+          "damageConfig": {
+            "statusEffects": [
+            ]
+          }
+        },
+        "fireSounds": [
+          [
+            "/sfx/melee/swing_spear_ice1.ogg",
+            "/sfx/melee/swing_spear_ice2.ogg",
+            "/sfx/melee/swing_spear_ice3.ogg"
+          ]
+        ]
+      },
+      "poison": {
+        "primaryAbility": {
+          "damageConfig": {
+            "statusEffects": [
+            ]
+          }
+        },
+        "fireSounds": [
+          [
+            "/sfx/melee/swing_spear_poison1.ogg",
+            "/sfx/melee/swing_spear_poison2.ogg",
+            "/sfx/melee/swing_spear_poison3.ogg"
+          ]
+        ]
+      },
+      "electric": {
+        "primaryAbility": {
+          "damageConfig": {
+            "statusEffects": [
+            ]
+          }
+        },
+        "fireSounds": [
+          [
+            "/sfx/melee/swing_spear_electric1.ogg",
+            "/sfx/melee/swing_spear_electric2.ogg",
+            "/sfx/melee/swing_spear_electric3.ogg"
+          ]
+        ]
+      },
+      "physical": {
+        "primaryAbility": {
+          "damageConfig": {
+            "statusEffects": []
+          }
+        },
+        "fireSounds": [
+          [
+            "/sfx/melee/swing_spear.ogg"
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "op": "replace",
+    "path": "/builderConfig/0/altAbilities/1",
+    "value": "elementalspin"
+  },
+  {
+    "op": "move",
+    "path": "/builderConfig/-",
+    "from": "/builderConfig/0"
+  }
+],[
+  {
+    "op": "test",
+    "path": "/builderConfig/0/manufacturer",
+    "inverse": true
+  },
+  {
+    "op": "add",
+    "path": "/builderConfig/0/manufacturer",
+    "value": [
+      "custom",
+      "manaticon",
+      "necrolix",
+      "shadeco",
+      "teklacki",
+      "xiali"
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/builderConfig/0/treatPhysicalAsElementalType",
+    "value": true
+  },
+  {
+    "op": "add",
+    "path": "/builderConfig/0/noElementalTypeUnlessForced",
+    "value": true
+  },
+  {
+    "op": "add",
+    "path": "/builderConfig/0/elementalType",
+    "value": [
+      "fire",
+      "ice",
+      "electric",
+      "poison"
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/builderConfig/0/elementalConfig",
+    "value": {
+      "fire": {
+        "primaryAbility": {
+          "damageConfig": {
+            "statusEffects": [
+            ]
+          }
+        },
+        "fireSounds": [
+          [
+            "/sfx/melee/swing_spear_fire1.ogg",
+            "/sfx/melee/swing_spear_fire2.ogg",
+            "/sfx/melee/swing_spear_fire3.ogg"
+          ]
+        ]
+      },
+      "ice": {
+        "primaryAbility": {
+          "damageConfig": {
+            "statusEffects": [
+            ]
+          }
+        },
+        "fireSounds": [
+          [
+            "/sfx/melee/swing_spear_ice1.ogg",
+            "/sfx/melee/swing_spear_ice2.ogg",
+            "/sfx/melee/swing_spear_ice3.ogg"
+          ]
+        ]
+      },
+      "poison": {
+        "primaryAbility": {
+          "damageConfig": {
+            "statusEffects": [
+            ]
+          }
+        },
+        "fireSounds": [
+          [
+            "/sfx/melee/swing_spear_poison1.ogg",
+            "/sfx/melee/swing_spear_poison2.ogg",
+            "/sfx/melee/swing_spear_poison3.ogg"
+          ]
+        ]
+      },
+      "electric": {
+        "primaryAbility": {
+          "damageConfig": {
+            "statusEffects": [
+            ]
+          }
+        },
+        "fireSounds": [
+          [
+            "/sfx/melee/swing_spear_electric1.ogg",
+            "/sfx/melee/swing_spear_electric2.ogg",
+            "/sfx/melee/swing_spear_electric3.ogg"
+          ]
+        ]
+      },
+      "physical": {
+        "primaryAbility": {
+          "damageConfig": {
+            "statusEffects": []
+          }
+        },
+        "fireSounds": [
+          [
+            "/sfx/melee/swing_spear.ogg"
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "op": "replace",
+    "path": "/builderConfig/0/altAbilities/1",
+    "value": "elementalspin"
+  },
+  {
+    "op": "move",
+    "path": "/builderConfig/-",
+    "from": "/builderConfig/0"
+  }
+],[
+  {
+    "op": "test",
+    "path": "/builderConfig/0/manufacturer",
+    "inverse": true
+  },
+  {
+    "op": "add",
+    "path": "/builderConfig/0/manufacturer",
+    "value": [
+      "custom",
+      "manaticon",
+      "necrolix",
+      "shadeco",
+      "teklacki",
+      "xiali"
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/builderConfig/0/treatPhysicalAsElementalType",
+    "value": true
+  },
+  {
+    "op": "add",
+    "path": "/builderConfig/0/noElementalTypeUnlessForced",
+    "value": true
+  },
+  {
+    "op": "add",
+    "path": "/builderConfig/0/elementalType",
+    "value": [
+      "fire",
+      "ice",
+      "electric",
+      "poison"
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/builderConfig/0/elementalConfig",
+    "value": {
+      "fire": {
+        "primaryAbility": {
+          "damageConfig": {
+            "statusEffects": [
+            ]
+          }
+        },
+        "fireSounds": [
+          [
+            "/sfx/melee/swing_spear_fire1.ogg",
+            "/sfx/melee/swing_spear_fire2.ogg",
+            "/sfx/melee/swing_spear_fire3.ogg"
+          ]
+        ]
+      },
+      "ice": {
+        "primaryAbility": {
+          "damageConfig": {
+            "statusEffects": [
+            ]
+          }
+        },
+        "fireSounds": [
+          [
+            "/sfx/melee/swing_spear_ice1.ogg",
+            "/sfx/melee/swing_spear_ice2.ogg",
+            "/sfx/melee/swing_spear_ice3.ogg"
+          ]
+        ]
+      },
+      "poison": {
+        "primaryAbility": {
+          "damageConfig": {
+            "statusEffects": [
+            ]
+          }
+        },
+        "fireSounds": [
+          [
+            "/sfx/melee/swing_spear_poison1.ogg",
+            "/sfx/melee/swing_spear_poison2.ogg",
+            "/sfx/melee/swing_spear_poison3.ogg"
+          ]
+        ]
+      },
+      "electric": {
+        "primaryAbility": {
+          "damageConfig": {
+            "statusEffects": [
+            ]
+          }
+        },
+        "fireSounds": [
+          [
+            "/sfx/melee/swing_spear_electric1.ogg",
+            "/sfx/melee/swing_spear_electric2.ogg",
+            "/sfx/melee/swing_spear_electric3.ogg"
+          ]
+        ]
+      },
+      "physical": {
+        "primaryAbility": {
+          "damageConfig": {
+            "statusEffects": []
+          }
+        },
+        "fireSounds": [
+          [
+            "/sfx/melee/swing_spear.ogg"
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "op": "replace",
+    "path": "/builderConfig/0/altAbilities/1",
+    "value": "elementalspin"
+  },
+  {
+    "op": "move",
+    "path": "/builderConfig/-",
+    "from": "/builderConfig/0"
+  }
+]]

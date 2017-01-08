@@ -1,0 +1,314 @@
+[[
+  {
+    "op": "add",
+    "path": "/builderConfig/0/manufacturer",
+    "value": [
+      "callox",
+      "custom",
+      "graxus",
+      "manaticon",
+      "necrolix",
+      "rotik",
+      "shadeco",
+      "xiali"
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/builderConfig/0/treatPhysicalAsElementalType",
+    "value": true
+  },
+  {
+    "op": "add",
+    "path": "/builderConfig/0/elementalType/-",
+    "value": "explosive"
+  },
+  {
+    "op": "add",
+    "path": "/builderConfig/0/elementalConfig/explosive",
+    "value": {
+      "primaryAbility": {
+        "projectileType": "kit_projectile_explosivebullet"
+      }
+    }
+  },
+  {
+    "op": "add",
+    "path": "/builderConfig/0/elementalConfig/physical",
+    "value": {
+      "primaryAbility": {
+        "projectileType": "standardbullet"
+      }
+    }
+  },
+  {
+    "op": "move",
+    "path": "/builderConfig/-",
+    "from": "/builderConfig/0"
+  }
+],[
+  {
+    "op": "test",
+    "path": "/builderConfig/0/manufacturer",
+    "inverse": true
+  },
+  {
+    "op": "add",
+    "path": "/builderConfig/0/manufacturer",
+    "value": [
+      "callox",
+      "custom",
+      "graxus",
+      "manaticon",
+      "necrolix",
+      "rotik",
+      "shadeco",
+      "xiali"
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/builderConfig/0/treatPhysicalAsElementalType",
+    "value": true
+  },
+  {
+    "op": "add",
+    "path": "/builderConfig/0/elementalType/-",
+    "value": "explosive"
+  },
+  {
+    "op": "add",
+    "path": "/builderConfig/0/elementalConfig/explosive",
+    "value": {
+      "primaryAbility": {
+        "projectileType": "kit_projectile_explosivebullet"
+      }
+    }
+  },
+  {
+    "op": "add",
+    "path": "/builderConfig/0/elementalConfig/physical",
+    "value": {
+      "primaryAbility": {
+        "projectileType": "standardbullet"
+      }
+    }
+  },
+  {
+    "op": "move",
+    "path": "/builderConfig/-",
+    "from": "/builderConfig/0"
+  }
+],[
+  {
+    "op": "test",
+    "path": "/builderConfig/0/manufacturer",
+    "inverse": true
+  },
+  {
+    "op": "add",
+    "path": "/builderConfig/0/manufacturer",
+    "value": [
+      "callox",
+      "custom",
+      "graxus",
+      "manaticon",
+      "necrolix",
+      "rotik",
+      "shadeco",
+      "xiali"
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/builderConfig/0/treatPhysicalAsElementalType",
+    "value": true
+  },
+  {
+    "op": "add",
+    "path": "/builderConfig/0/elementalType/-",
+    "value": "explosive"
+  },
+  {
+    "op": "add",
+    "path": "/builderConfig/0/elementalConfig/explosive",
+    "value": {
+      "primaryAbility": {
+        "projectileType": "kit_projectile_explosivebullet"
+      }
+    }
+  },
+  {
+    "op": "add",
+    "path": "/builderConfig/0/elementalConfig/physical",
+    "value": {
+      "primaryAbility": {
+        "projectileType": "standardbullet"
+      }
+    }
+  },
+  {
+    "op": "move",
+    "path": "/builderConfig/-",
+    "from": "/builderConfig/0"
+  }
+],[
+  {
+    "op": "test",
+    "path": "/builderConfig/0/manufacturer",
+    "inverse": true
+  },
+  {
+    "op": "add",
+    "path": "/builderConfig/0/manufacturer",
+    "value": [
+      "callox",
+      "custom",
+      "graxus",
+      "manaticon",
+      "necrolix",
+      "rotik",
+      "shadeco",
+      "xiali"
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/builderConfig/0/treatPhysicalAsElementalType",
+    "value": true
+  },
+  {
+    "op": "add",
+    "path": "/builderConfig/0/elementalType/-",
+    "value": "explosive"
+  },
+  {
+    "op": "add",
+    "path": "/builderConfig/0/elementalConfig/explosive",
+    "value": {
+      "primaryAbility": {
+        "projectileType": "kit_projectile_explosivebullet"
+      }
+    }
+  },
+  {
+    "op": "add",
+    "path": "/builderConfig/0/elementalConfig/physical",
+    "value": {
+      "primaryAbility": {
+        "projectileType": "standardbullet"
+      }
+    }
+  },
+  {
+    "op": "move",
+    "path": "/builderConfig/-",
+    "from": "/builderConfig/0"
+  }
+],[
+  {
+    "op": "test",
+    "path": "/builderConfig/0/manufacturer",
+    "inverse": true
+  },
+  {
+    "op": "add",
+    "path": "/builderConfig/0/manufacturer",
+    "value": [
+      "callox",
+      "custom",
+      "graxus",
+      "manaticon",
+      "necrolix",
+      "rotik",
+      "shadeco",
+      "xiali"
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/builderConfig/0/treatPhysicalAsElementalType",
+    "value": true
+  },
+  {
+    "op": "add",
+    "path": "/builderConfig/0/elementalType/-",
+    "value": "explosive"
+  },
+  {
+    "op": "add",
+    "path": "/builderConfig/0/elementalConfig/explosive",
+    "value": {
+      "primaryAbility": {
+        "projectileType": "kit_projectile_explosivebullet"
+      }
+    }
+  },
+  {
+    "op": "add",
+    "path": "/builderConfig/0/elementalConfig/physical",
+    "value": {
+      "primaryAbility": {
+        "projectileType": "standardbullet"
+      }
+    }
+  },
+  {
+    "op": "move",
+    "path": "/builderConfig/-",
+    "from": "/builderConfig/0"
+  }
+],[
+  {
+    "op": "test",
+    "path": "/builderConfig/0/manufacturer",
+    "inverse": true
+  },
+  {
+    "op": "add",
+    "path": "/builderConfig/0/manufacturer",
+    "value": [
+      "callox",
+      "custom",
+      "graxus",
+      "manaticon",
+      "necrolix",
+      "rotik",
+      "shadeco",
+      "xiali"
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/builderConfig/0/treatPhysicalAsElementalType",
+    "value": true
+  },
+  {
+    "op": "add",
+    "path": "/builderConfig/0/elementalType/-",
+    "value": "explosive"
+  },
+  {
+    "op": "add",
+    "path": "/builderConfig/0/elementalConfig/explosive",
+    "value": {
+      "primaryAbility": {
+        "projectileType": "kit_projectile_explosivebullet"
+      }
+    }
+  },
+  {
+    "op": "add",
+    "path": "/builderConfig/0/elementalConfig/physical",
+    "value": {
+      "primaryAbility": {
+        "projectileType": "standardbullet"
+      }
+    }
+  },
+  {
+    "op": "move",
+    "path": "/builderConfig/-",
+    "from": "/builderConfig/0"
+  }
+]]

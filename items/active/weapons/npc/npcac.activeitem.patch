@@ -1,0 +1,433 @@
+[[
+  {
+    "op": "remove",
+    "path": "/elementalType"
+  }
+],[
+  {
+    "op": "add",
+    "path": "/builderConfig/0/manufacturer",
+    "value": [
+      "callox",
+      "custom",
+      "graxus",
+      "manaticon",
+      "necrolix",
+      "rotik",
+      "shadeco",
+      "xiali"
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/builderConfig/0/treatPhysicalAsElementalType",
+    "value": true
+  },
+  {
+    "op": "add",
+    "path": "/builderConfig/0/noElementalTypeUnlessForced",
+    "value": true
+  },
+  {
+    "op": "add",
+    "path": "/builderConfig/0/elementalType",
+    "value": [
+      "fire",
+      "ice",
+      "electric",
+      "poison",
+      "explosive"
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/builderConfig/0/elementalConfig",
+    "value": {
+      "fire" : {
+        "primaryAbility" : { "projectileParameters" : {  "damageKind" : "fireplasmabullet" } }
+      },
+      "ice" : {
+        "primaryAbility" : { "projectileParameters" : {  "damageKind" : "iceplasmabullet" } }
+      },
+      "poison" : {
+        "primaryAbility" : { "projectileParameters" : {  "damageKind" : "poisonplasmabullet" } }
+      },
+      "electric" : {
+        "primaryAbility" : { "projectileParameters" : {  "damageKind" : "electricplasmabullet" } }
+      },
+      "explosive": {
+        "primaryAbility": {
+          "projectileType": "kit_projectile_explosivebullet"
+        }
+      },
+      "physical": {
+
+      }
+    }
+  },
+  {
+    "op": "move",
+    "path": "/builderConfig/-",
+    "from": "/builderConfig/0"
+  }
+],[
+  {
+    "op": "test",
+    "path": "/builderConfig/0/manufacturer",
+    "inverse": true
+  },
+  {
+    "op": "add",
+    "path": "/builderConfig/0/manufacturer",
+    "value": [
+      "callox",
+      "custom",
+      "graxus",
+      "manaticon",
+      "necrolix",
+      "rotik",
+      "shadeco",
+      "xiali"
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/builderConfig/0/treatPhysicalAsElementalType",
+    "value": true
+  },
+  {
+    "op": "add",
+    "path": "/builderConfig/0/noElementalTypeUnlessForced",
+    "value": true
+  },
+  {
+    "op": "add",
+    "path": "/builderConfig/0/elementalType",
+    "value": [
+      "fire",
+      "ice",
+      "electric",
+      "poison",
+      "explosive"
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/builderConfig/0/elementalConfig",
+    "value": {
+      "fire" : {
+        "primaryAbility" : { "projectileParameters" : {  "damageKind" : "fireplasmabullet" } }
+      },
+      "ice" : {
+        "primaryAbility" : { "projectileParameters" : {  "damageKind" : "iceplasmabullet" } }
+      },
+      "poison" : {
+        "primaryAbility" : { "projectileParameters" : {  "damageKind" : "poisonplasmabullet" } }
+      },
+      "electric" : {
+        "primaryAbility" : { "projectileParameters" : {  "damageKind" : "electricplasmabullet" } }
+      },
+      "explosive": {
+        "primaryAbility": {
+          "projectileType": "kit_projectile_explosivebullet"
+        }
+      },
+      "physical": {
+
+      }
+    }
+  },
+  {
+    "op": "move",
+    "path": "/builderConfig/-",
+    "from": "/builderConfig/0"
+  }
+],[
+  {
+    "op": "test",
+    "path": "/builderConfig/0/manufacturer",
+    "inverse": true
+  },
+  {
+    "op": "add",
+    "path": "/builderConfig/0/manufacturer",
+    "value": [
+      "callox",
+      "custom",
+      "graxus",
+      "manaticon",
+      "necrolix",
+      "rotik",
+      "shadeco",
+      "xiali"
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/builderConfig/0/treatPhysicalAsElementalType",
+    "value": true
+  },
+  {
+    "op": "add",
+    "path": "/builderConfig/0/noElementalTypeUnlessForced",
+    "value": true
+  },
+  {
+    "op": "add",
+    "path": "/builderConfig/0/elementalType",
+    "value": [
+      "fire",
+      "ice",
+      "electric",
+      "poison",
+      "explosive"
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/builderConfig/0/elementalConfig",
+    "value": {
+      "fire" : {
+        "primaryAbility" : { "projectileParameters" : {  "damageKind" : "fireplasmabullet" } }
+      },
+      "ice" : {
+        "primaryAbility" : { "projectileParameters" : {  "damageKind" : "iceplasmabullet" } }
+      },
+      "poison" : {
+        "primaryAbility" : { "projectileParameters" : {  "damageKind" : "poisonplasmabullet" } }
+      },
+      "electric" : {
+        "primaryAbility" : { "projectileParameters" : {  "damageKind" : "electricplasmabullet" } }
+      },
+      "explosive": {
+        "primaryAbility": {
+          "projectileType": "kit_projectile_explosivebullet"
+        }
+      },
+      "physical": {
+
+      }
+    }
+  },
+  {
+    "op": "move",
+    "path": "/builderConfig/-",
+    "from": "/builderConfig/0"
+  }
+],[
+  {
+    "op": "test",
+    "path": "/builderConfig/0/manufacturer",
+    "inverse": true
+  },
+  {
+    "op": "add",
+    "path": "/builderConfig/0/manufacturer",
+    "value": [
+      "callox",
+      "custom",
+      "graxus",
+      "manaticon",
+      "necrolix",
+      "rotik",
+      "shadeco",
+      "xiali"
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/builderConfig/0/treatPhysicalAsElementalType",
+    "value": true
+  },
+  {
+    "op": "add",
+    "path": "/builderConfig/0/noElementalTypeUnlessForced",
+    "value": true
+  },
+  {
+    "op": "add",
+    "path": "/builderConfig/0/elementalType",
+    "value": [
+      "fire",
+      "ice",
+      "electric",
+      "poison",
+      "explosive"
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/builderConfig/0/elementalConfig",
+    "value": {
+      "fire" : {
+        "primaryAbility" : { "projectileParameters" : {  "damageKind" : "fireplasmabullet" } }
+      },
+      "ice" : {
+        "primaryAbility" : { "projectileParameters" : {  "damageKind" : "iceplasmabullet" } }
+      },
+      "poison" : {
+        "primaryAbility" : { "projectileParameters" : {  "damageKind" : "poisonplasmabullet" } }
+      },
+      "electric" : {
+        "primaryAbility" : { "projectileParameters" : {  "damageKind" : "electricplasmabullet" } }
+      },
+      "explosive": {
+        "primaryAbility": {
+          "projectileType": "kit_projectile_explosivebullet"
+        }
+      },
+      "physical": {
+
+      }
+    }
+  },
+  {
+    "op": "move",
+    "path": "/builderConfig/-",
+    "from": "/builderConfig/0"
+  }
+],[
+  {
+    "op": "test",
+    "path": "/builderConfig/0/manufacturer",
+    "inverse": true
+  },
+  {
+    "op": "add",
+    "path": "/builderConfig/0/manufacturer",
+    "value": [
+      "callox",
+      "custom",
+      "graxus",
+      "manaticon",
+      "necrolix",
+      "rotik",
+      "shadeco",
+      "xiali"
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/builderConfig/0/treatPhysicalAsElementalType",
+    "value": true
+  },
+  {
+    "op": "add",
+    "path": "/builderConfig/0/noElementalTypeUnlessForced",
+    "value": true
+  },
+  {
+    "op": "add",
+    "path": "/builderConfig/0/elementalType",
+    "value": [
+      "fire",
+      "ice",
+      "electric",
+      "poison",
+      "explosive"
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/builderConfig/0/elementalConfig",
+    "value": {
+      "fire" : {
+        "primaryAbility" : { "projectileParameters" : {  "damageKind" : "fireplasmabullet" } }
+      },
+      "ice" : {
+        "primaryAbility" : { "projectileParameters" : {  "damageKind" : "iceplasmabullet" } }
+      },
+      "poison" : {
+        "primaryAbility" : { "projectileParameters" : {  "damageKind" : "poisonplasmabullet" } }
+      },
+      "electric" : {
+        "primaryAbility" : { "projectileParameters" : {  "damageKind" : "electricplasmabullet" } }
+      },
+      "explosive": {
+        "primaryAbility": {
+          "projectileType": "kit_projectile_explosivebullet"
+        }
+      },
+      "physical": {
+
+      }
+    }
+  },
+  {
+    "op": "move",
+    "path": "/builderConfig/-",
+    "from": "/builderConfig/0"
+  }
+],[
+  {
+    "op": "test",
+    "path": "/builderConfig/0/manufacturer",
+    "inverse": true
+  },
+  {
+    "op": "add",
+    "path": "/builderConfig/0/manufacturer",
+    "value": [
+      "callox",
+      "custom",
+      "graxus",
+      "manaticon",
+      "necrolix",
+      "rotik",
+      "shadeco",
+      "xiali"
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/builderConfig/0/treatPhysicalAsElementalType",
+    "value": true
+  },
+  {
+    "op": "add",
+    "path": "/builderConfig/0/noElementalTypeUnlessForced",
+    "value": true
+  },
+  {
+    "op": "add",
+    "path": "/builderConfig/0/elementalType",
+    "value": [
+      "fire",
+      "ice",
+      "electric",
+      "poison",
+      "explosive"
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/builderConfig/0/elementalConfig",
+    "value": {
+      "fire" : {
+        "primaryAbility" : { "projectileParameters" : {  "damageKind" : "fireplasmabullet" } }
+      },
+      "ice" : {
+        "primaryAbility" : { "projectileParameters" : {  "damageKind" : "iceplasmabullet" } }
+      },
+      "poison" : {
+        "primaryAbility" : { "projectileParameters" : {  "damageKind" : "poisonplasmabullet" } }
+      },
+      "electric" : {
+        "primaryAbility" : { "projectileParameters" : {  "damageKind" : "electricplasmabullet" } }
+      },
+      "explosive": {
+        "primaryAbility": {
+          "projectileType": "kit_projectile_explosivebullet"
+        }
+      },
+      "physical": {
+
+      }
+    }
+  },
+  {
+    "op": "move",
+    "path": "/builderConfig/-",
+    "from": "/builderConfig/0"
+  }
+]]

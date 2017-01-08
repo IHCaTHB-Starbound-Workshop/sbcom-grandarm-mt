@@ -1,0 +1,12 @@
+,
+  {
+    "op": "move",
+    "path": "/builderConfig/-",
+    "from": "/builderConfig/0"
+  }
+],[
+  {
+    "op": "test",
+    "path": "/builderConfig/0/manufacturer",
+    "inverse": true
+  },
