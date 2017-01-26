@@ -7,5 +7,5 @@
   "name" : "GRANDARM-MT.IHC",
   "requires" : ["kit_manufacturer", "GRANDARM.IHC"],
   "steamContentId" : "837593363",
-  "version" : "0.1a"
+  "version" : "0.2"
 }

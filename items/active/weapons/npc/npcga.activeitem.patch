@@ -115,11 +115,6 @@
     }
   },
   {
-    "op": "replace",
-    "path": "/builderConfig/0/altAbilities/1",
-    "value": "shockwave"
-  },
-  {
     "op": "move",
     "path": "/builderConfig/-",
     "from": "/builderConfig/0"
@@ -241,11 +236,6 @@
     }
   },
   {
-    "op": "replace",
-    "path": "/builderConfig/0/altAbilities/1",
-    "value": "shockwave"
-  },
-  {
     "op": "move",
     "path": "/builderConfig/-",
     "from": "/builderConfig/0"
@@ -365,11 +355,6 @@
         ]
       }
     }
-  },
-  {
-    "op": "replace",
-    "path": "/builderConfig/0/altAbilities/1",
-    "value": "shockwave"
   },
   {
     "op": "move",
